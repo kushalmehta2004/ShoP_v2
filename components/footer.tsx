@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="relative bg-foreground text-background overflow-hidden">
       {/* Large brand text */}
       <div className="relative">
-        <h2 className="text-[18vw] sm:text-[16vw] leading-[0.85] uppercase font-serif font-medium text-center bg-gradient-to-b from-background/20 to-background/5 bg-clip-text text-transparent select-none translate-y-8 sm:translate-y-12">
+        <h2 className="text-[18vw] sm:text-[16vw] leading-[0.85] font-serif font-medium text-center bg-gradient-to-b from-background/20 to-background/5 bg-clip-text text-transparent select-none translate-y-8 sm:translate-y-12">
           ShoP
         </h2>
       </div>
