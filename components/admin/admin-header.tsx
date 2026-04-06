@@ -25,9 +25,7 @@ export function AdminHeader({ userEmail }: AdminHeaderProps) {
           {/* Logo */}
           <div className="flex items-center gap-6">
             <Link href="/admin" className="flex-shrink-0">
-              <h1 className="font-serif text-xl text-foreground">
-                Ends With P
-              </h1>
+              <img src="/logo.jpg" alt="ShoP" className="h-8 w-auto" />
             </Link>
             <span className="text-xs tracking-widest uppercase text-muted-foreground">
               Admin

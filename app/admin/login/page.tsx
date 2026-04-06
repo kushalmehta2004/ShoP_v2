@@ -41,9 +41,7 @@ export default function AdminLoginPage() {
       <header className="border-b border-border">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <Link href="/">
-            <h1 className="font-serif text-xl text-foreground">
-              Ends With P
-            </h1>
+            <img src="/logo.jpg" alt="ShoP" className="h-8 w-auto" />
           </Link>
         </div>
       </header>

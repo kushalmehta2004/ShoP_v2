@@ -17,11 +17,11 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'Ends With P | Luxury Indian Imports',
-  description: 'A curated collection of premium goods imported to India. Exclusive luxury items from around the world.',
+  title: 'ShoP | Luxury Shopping Concierge',
+  description: 'A curated collection of premium goods and luxury imports by ShoP.',
   generator: 'v0.app',
-  keywords: ['luxury', 'imports', 'India', 'premium', 'catalogue', 'exclusive'],
-  authors: [{ name: 'Ends With P' }],
+  keywords: ['luxury', 'imports', 'India', 'premium', 'catalogue', 'exclusive', 'ShoP'],
+  authors: [{ name: 'ShoP' }],
   icons: {
     icon: [
       {
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   openGraph: {
-    title: 'Ends With P | Luxury Indian Imports',
-    description: 'A curated collection of premium goods imported to India.',
+    title: 'ShoP | Luxury Shopping Concierge',
+    description: 'A curated collection of premium goods and luxury imports by ShoP.',
     type: 'website',
   },
 }

@@ -107,9 +107,7 @@ export function CollectionPage() {
 
             {/* Logo */}
             <Link href="/" className="absolute left-1/2 -translate-x-1/2">
-              <h1 className="font-serif text-xl sm:text-2xl tracking-wide text-foreground">
-                Ends With P
-              </h1>
+              <img src="/logo.jpg" alt="ShoP" className="h-8 w-auto sm:h-10" />
             </Link>
 
             {/* Spacer for alignment */}

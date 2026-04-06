@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Admin | Ends With P',
+  title: 'Admin | ShoP',
   description: 'Manage your luxury catalogue',
 }
 

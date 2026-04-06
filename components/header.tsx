@@ -4,10 +4,18 @@ import Link from 'next/link'
 import { motion, useScroll, useTransform } from 'motion/react'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import { Pacifico } from 'next/font/google'
+
+const pacifico = Pacifico({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-pacifico',
+  display: 'swap',
+})
 
 const navLinks = [
   { name: 'Collection', href: '/collection' },
-  { name: 'About', href: '#' },
+  { name: 'About', href: '/about' },
   { name: 'Contact', href: '#' },
 ]
 
@@ -32,10 +40,13 @@ export function Header() {
         {/* Main header row */}
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
-            <h1 className="font-serif text-xl sm:text-2xl tracking-wide text-foreground">
-              Ends With P
-            </h1>
+          <Link href="/" className="flex flex-shrink-0 items-center gap-3">
+            <div className="flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl bg-foreground/5 ring-1 ring-border sm:h-16 sm:w-16">
+              <img src="/logo.jpg" alt="ShoP logo" className="h-full w-full object-cover" />
+            </div>
+            <span className={`${pacifico.className} text-2xl tracking-wide text-foreground sm:text-3xl`}>
+              ends with P
+            </span>
           </Link>
 
           {/* Desktop navigation */}
