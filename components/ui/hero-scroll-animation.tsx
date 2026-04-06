@@ -5,6 +5,7 @@ import React, { useRef } from 'react'
 import { ArrowDown } from 'lucide-react'
 import { ImageCarousel } from './image-carousel'
 import { ContainerScroll } from './container-scroll-animation'
+import WaveBackground from './wave-background'
 
 const featuredImages = [
   {
@@ -133,8 +134,11 @@ export function HeroScrollAnimation() {
             </div>
           }
         >
-          <div className="flex h-full w-full items-center rounded-2xl bg-foreground p-4 text-background md:p-10">
-            <div className="mx-auto w-full max-w-6xl">
+          <div className="relative flex h-full w-full items-center overflow-hidden rounded-2xl bg-foreground p-4 text-background md:p-10">
+            <div className="absolute inset-0 opacity-60">
+              <WaveBackground darkTheme />
+            </div>
+            <div className="relative z-10 mx-auto w-full max-w-6xl">
               <ImageCarousel images={featuredImages} autoplay={true} autoplayInterval={5000} />
             </div>
           </div>
